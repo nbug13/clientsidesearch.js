@@ -6,8 +6,12 @@
  *       and is currently unstable and might also be intensive.
  */
 
-var searchColor = 0;
-	document.getElementById("search").focus();
+	$(document).ready(function(){
+		document.getElementById("search").focus();
+	});
+	
+	var searchColor = 0;
+	
 	function clearSearch(){
 		document.getElementById('search').value = "";
 		$('.searchable').removeClass("hashtml").removeClass("hidden");
