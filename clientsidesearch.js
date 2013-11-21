@@ -6,11 +6,10 @@
  *       and is currently unstable and might also be intensive.
  */
 
-	$(document).ready(function(){
-		document.getElementById("search").focus();
-	});
-	
+
 	var searchColor = 0;
+	
+	document.getElementById("search").focus();
 	
 	function clearSearch(){
 		document.getElementById('search').value = "";
